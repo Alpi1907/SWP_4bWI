@@ -6,10 +6,83 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .box1{
+            background-color: aqua;
+            height: 350px;
+            width: 300px;
+            position: fixed;
+            top: 70px;
+            left: 70px;
+        }
+
+        .box2{
+            background-color: black;
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            top: -50px;
+            left: -50px;
+        }
+
+        .box3{
+            background-color: greenyellow;
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            top: 250px;
+            left: 200px;
+        }
+
+        .long_box{
+            background-color: grey;
+            height: 120px;
+            width: 1400px;
+            position: absolute;
+            top: 550px;
+            left: 70px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;     
+            align-items: center;
+        }
+
+        .box1_2{
+            background-color: green;
+            height: 80px;
+            width: 100px;
+            margin: 50px;
+        }
+
+        .box2_2{
+            background-color: green;
+            height: 80px;
+            width: 100px;
+            margin: 50px;
+        }
+
+        .box3_2{
+            background-color: green;
+            height: 80px;
+            width: 100px;
+            margin: 50px;
+        }
+    </style>
 </head>
 
 <body>
+    <div class="box1">
+        <div class="box2"></div>
+        <div class="box3"></div>
+    </div>
 
+    <div class="long_box">
+        <div class="box1_2"></div>
+        <div class="box2_2"></div>
+        <div class="box3_2"></div>
+    </div>
+
+    
 </body>
 
 </html>
