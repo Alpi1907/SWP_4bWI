@@ -9,24 +9,73 @@
     <style>
         .row{
             background-color: darkred;
-            width: 99%;
-            position: fixed;
+            width: 100%;
+            height: 50px;
             display: flex;
             flex-direction: row;
-            justify-content: center;
+            justify-content: left;
             align-items: center;
             font-family: "ORF ON",Arial,Helvetica,Lucida Sans Unicode,Lucida Grande,sans-serif;
+            font-feature-settings: "liga", "kern";
             color: white;
         }
 
         .row1{
             background-color: darkred;
             height: 50px;
+            margin: 10px;
         }
 
         .row2{
             background-color: darkred;
+            height: 10px;
+            margin: 10px;
+        }    
+
+        .orf{
+            background-color: firebrick;
+            width: 250px;
+            height: 150px;
+            margin: 0px;
+        }
+
+        .vorarlberg{
+            background-color: firebrick;
+            width: 150px;
             height: 50px;
+            margin: 10px;
+            font-family: "ORF ON",Arial,Helvetica,Lucida Sans Unicode,Lucida Grande,sans-serif;
+            font-feature-settings: "liga", "kern";
+            color: white;
+            font-size: 35px;
+        }
+
+        .box{
+            background-color: firebrick;
+            width: 100%;
+            height: 150px;
+            display: flex;
+            flex-direction: row;
+            align-items: center; 
+        }
+
+        .row3{
+            background-color: darkred;
+            width: 100%;
+            height: 50px;
+            display: flex;
+            flex-direction: row;
+            justify-content: left;
+            align-items: center;
+            font-family: "ORF ON",Arial,Helvetica,Lucida Sans Unicode,Lucida Grande,sans-serif;
+            font-feature-settings: "liga", "kern";
+            color: white;
+        }
+
+        .row3_1{
+            background-color: darkred;
+            height: 50px;
+            margin: auto;
         }
 
     </style>
@@ -34,8 +83,30 @@
 
 <body>
     <div class="row">
-        <div class="row1">Fernsehen TVthek</div>
-        <div class="row2"></div>
+        <div class="row row1">Fernsehen</div>
+        <div class="row row1">TVthek</div>
+        <div class="row row1">Radiothek</div>
+        <div class="row row1">Debatte</div>
+        <div class="row row1">Österreich</div>
+        <div class="row row1">Wetter</div>
+        <div class="row row1">Sport</div>
+        <div class="row row1">News</div>
+        <div class="row row2">ORF.at im Überblick</div>
+    </div>
+
+    <div class="box">
+        <div class="vorarlberg">vorarlberg</div>
+        <div class="orf">
+            <img src="https://oekastatic.orf.at/mojo/1_4_1/storyserver//oeka/common/images/target.news.red.svg" height="150px" width="150px">
+        </div>
+    </div>
+
+    <div class="row3">
+        <div class="row3_1">Vorarlberg-News</div>
+        <div class="row3_1">Radio Vorarlberg</div>
+        <div class="row3_1">Vorarlberg heute</div>
+        <div class="row3_1">ORF Vorarlberg</div>
+        <div class="row3_1">Ganz Österreich</div>
     </div>
 
 </body>
