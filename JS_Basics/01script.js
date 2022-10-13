@@ -15,7 +15,7 @@ console.log("A hat den Wert " + a);
 console.log("a + b = " + c);
 
 //Rechnungsarten
-// *, /, +, -
+// *, /, +, - 
 
 c = b-a;
 console.log("b - a = " + c);
