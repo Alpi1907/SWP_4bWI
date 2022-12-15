@@ -23,5 +23,4 @@ function buttonClicked4(){
     let num7 = document.getElementById("number7").value;
     let num8 = document.getElementById("number8").value;
     let result4 = parseFloat(num7) / parseFloat(num8);
-    console.log(result4);
 }

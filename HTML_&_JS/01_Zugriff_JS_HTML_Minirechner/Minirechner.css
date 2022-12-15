@@ -1,0 +1,54 @@
+.Überschrift{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Addieren{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 20px;   
+}
+.number1{
+    width: 100px;
+}
+.number2{
+    width: 100px;
+}
+
+.Subtrahieren{
+    display: flex;
+  align-items:center;
+  justify-content: center;
+  margin: 20px;
+}
+.number3{
+    width: 100px;
+}
+.number4{
+    width: 100px;
+}
+
+.Multiplizieren{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+.number5{
+    width: 100px;
+}
+.number6{
+    width: 100px;
+}
+
+.Dividieren{
+    display: flex;
+  align-items: center;
+  justify-content: center;margin: 20px;
+}
+.number7{
+    width: 100px;
+}
