@@ -8,29 +8,38 @@
     <link rel="stylesheet" href="SignUp.css">
     <style>
         html{
-            background-color: whitesmoke;
+            background-color: white;
         }
     </style>
+    <title>Registrierung</title>
 </head>
+
 <body>
-    <div class="row1">
-        <div class="row1_2"><b>BikePark</b></div>
+    <div class="row">
+        <div class="row1"><b>BikePark</b></div>
     </div>
-    <div class="SignIn"> 
-        <div class="box">
-            <div class="EmailÜberschrift">Email</div>
-            <input type="text" id="Email" class="Email" />
-            <div class="PasswortÜberschrift">Passwort</div>
-            <input type="text" id="Passwort" class="Passwort" />
-            <div class="VornameÜberschrift">Vorname (optional)</div>
-            <input type="text" id="Vorname" class="Vorname" />
-            <div class="NachnameÜberschrift">Nachname (optional)</div>
-            <input type="text" id="Nachname" class="Nachname" />
-            <div class="SignUpButton">
-                <button class="SignUpButton2">Account erstellen</button>
-            </div>
-        </div>
+	<div class="row2">
+        <form action="registrieren.php" method="post">
+            <label for="vorname">Vorname:</label><br>
+            <input type="text" id="vorname" name="vorname"><br>
+    
+            <label for="nachname">Nachname:</label><br>
+            <input type="text" id="nachname" name="nachname"><br>
+    
+            <label for="email">E-Mail-Adresse:</label><br>
+            <input type="email" id="email" name="email"><br>
+    
+            <label for="passwort">Passwort:</label><br>
+            <input type="password" id="passwort" name="passwort"><br>
+    
+            <label for="passwortbest">Passwort bestätigen:</label><br>
+            <input type="password" id="passwortbest" name="passwortbest"><br><br>
+    
+            <input type="submit" value="Registrieren" onClick=" open('http://127.0.0.1:5500/0_BikePark/Website/Website.html')">
+        </form>
     </div>
-    <div class="row2"></div>
+
+    <div class="row3"></div>
+
 </body>
 </html>

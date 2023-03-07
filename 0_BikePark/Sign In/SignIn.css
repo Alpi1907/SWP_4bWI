@@ -1,7 +1,7 @@
 .row1{
     background-color: black;
     width: 100%;
-    height: 120px;
+    height: 100px;
     position: absolute;
     left: 0%;
     top: 0%;
@@ -17,83 +17,65 @@
     font-size: 100px;
 }
 
-.SignIn{
-    height: 500px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 100px;
-    background-color: whitesmoke;
-    top: 30px;
-}
 .box{
     background-color: white;
-    width: 650px;
-    height: 400px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: black;
     position: absolute;
+    left: 0%;
+    width: 100%;
+    height: 500px;
+    top: 120px;
 }
 
-.EmailÜberschrift{
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-    left: 20px;
-    top: 30px;
-    font-size: large;
-    font-family: 'Courier New', Courier, monospace;
-}
 
-.Email{
-    position: absolute;
-    top: 60px;
-    left: 20px;
-    width: 600px;
-    font-size: large;
-}
 
-.PasswortÜberschrift{
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-    left: 20px;
-    top: 100px;
-    font-size: large;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-.Passwort{
-    position: absolute;
-    top: 130px;
-    left: 20px;
-    width: 600px;
-    font-size: large;
-}
-
-.SignInButton{
-    width: 650px;
-    height: 100px;
-    top: 240px;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.SignInButton2{
-    background-color: black;
-    color: white;
+/* Zentrieren des Formulars */
+form {
     width: 400px;
-    height: 50px;
-    font-size: large;
-    font-family: 'Courier New', Courier, monospace;
+    top: 500px;
+	margin: 0 auto;
+	padding: 20px;
+	border: 1px solid #ccc;
+	background-color: #f9f9f9;
+  }
+
+  label {
+	display: block;
+	margin-bottom: 5px;
 }
+  
+  /* Style für E-Mail- und Passwortfeld */
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Style für den Anmelde-Button */
+  button[type="submit"] {
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* Style für den Link zur Registrierungsseite */
+  p a {
+    color: #4CAF50;
+  }
+
+  
 
 .row2{
     background-color: black;
@@ -104,10 +86,10 @@
     bottom: 0%;
 }
 
-.SignUp{
+/*.SignUp{
     justify-content: center;
     align-items: center;
     position: absolute;
     top: 350px;
     font-family: 'Courier New', Courier, monospace;
-}
+}*/

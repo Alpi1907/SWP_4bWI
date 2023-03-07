@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="SignIn.css">
     <style>
         html{
-            background-color: whitesmoke;
+            background-color: white;
         }
     </style>
 </head>
@@ -18,13 +18,15 @@
     </div>
     <div class="SignIn"> 
         <div class="box">
-            <div class="EmailÜberschrift">Email</div>
-            <input type="text" id="Email" class="Email" />
-            <div class="PasswortÜberschrift">Passwort</div>
-            <input type="text" id="Passwort" class="Passwort" />
-            <div class="SignInButton">
-                <button class="SignInButton2">Sign In</button>
-            </div>
+            <form action="anmelden.php" method="post">
+                <label for="email">E-Mail:</label>
+                <input type="email" id="email" name="email" required>
+              
+                <label for="passwort">Passwort:</label>
+                <input type="password" id="passwort" name="passwort" required>
+              
+                <button type="submit">Anmelden</button>
+              </form>
             <div class="SignUp">
                 <a href="http://127.0.0.1:5500/0_BikePark/SignUp/SignUp.html">Ich habe noch keinen Account</a>
             </div>
@@ -33,3 +35,4 @@
     <div class="row2"></div>
 </body>
 </html>
+  
