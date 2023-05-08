@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Account erstellen</title>
+    <link rel="stylesheet" href="Registrieren.css">
   </head>
   <body>
     <?php
@@ -30,14 +31,24 @@
       }
     }
      ?>
-    <h1>Account erstellen</h1>
+    <div class="row1">
+        <div class="row1_2"><b>BikePark</b></div>
+    </div>
     <form action="register.php" method="post">
-      <input type="text" name="username" placeholder="Username" required><br>
-      <input type="password" name="pw" placeholder="Passwort" required><br>
-      <input type="password" name="pw2" placeholder="Passwort wiederholen" required><br>
-      <button type="submit" name="submit">Erstellen</button>
+      <h1 class="Überschrift">Account erstellen</h1>
     </form>
+    
+    <div class="box">
+        <form action="register.php" method="post">
+        <input type="text" name="username" placeholder="Username" required><br>
+        <input type="password" name="pw" placeholder="Passwort" required><br>
+        <input type="password" name="pw2" placeholder="Passwort wiederholen" required><br>
+        <button type="submit" name="submit">Erstellen</button>
+          <a href="index.php" class="Acc">Ich habe einen Account</a>
+      </form>
+    </div>
+    
     <br>
-    <a href="index.php">Hast du bereits einen Account?</a>
+    <div class="row2"></div>
   </body>
 </html>

@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Login</title>
+    <link rel="stylesheet" href="Anmelden.css">
   </head>
   <body>
     <?php
@@ -27,13 +28,24 @@
       }
     }
      ?>
-    <h1>Anmelden</h1>
+     <div class="row1">
+        <div class="row1_2"><b>BikePark</b></div>
+    </div>
+    <form action="index.php">
+        <h1 class="Überschrift">Anmelden</h1>
+    </form>
+    
+    <div class="box">
     <form action="index.php" method="post">
       <input type="text" name="username" placeholder="Username" required><br>
       <input type="password" name="pw" placeholder="Passwort" required><br>
       <button type="submit" name="submit">Einloggen</button>
+        <a href="register.php" class="KeinAcc">Account erstellen</a>
     </form>
+    </div>
+    
     <br>
-    <a href="register.php">Noch keinen Account?</a>
+    
+    <div class="row2"></div>
   </body>
 </html>
