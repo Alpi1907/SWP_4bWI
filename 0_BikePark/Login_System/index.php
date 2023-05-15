@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Login</title>
+    <title>BikePark</title>
     <link rel="stylesheet" href="Anmelden.css">
   </head>
   <body>

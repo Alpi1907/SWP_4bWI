@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Account erstellen</title>
+    <title>BikePark</title>
     <link rel="stylesheet" href="Registrieren.css">
   </head>
   <body>
