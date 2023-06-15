@@ -13,8 +13,6 @@ if(!isset($_SESSION["username"])){
     <title>BikePark</title>
   </head>
   <body>
-    <h1>Top Secret</h1>
-    
 
     <div class="row">
         <div class="row1"><b>BikePark</b></div>
